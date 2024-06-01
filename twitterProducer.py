@@ -19,10 +19,10 @@ class TwitterListener(StreamListener):
         print(status_code)
 
 
-access_token = "1455416438714290178-PmOsJ299mR4vRhDq9lSqbVK9DLaokK"
-access_token_secret = "FeKmPRmWIzvsSlbS3ljaGmGiApSPRWtqte9bFgo9jvBk3"
-consumer_key = "VRGtX3lA9APLMmKtIR9AoB9Be"
-consumer_secret = "UjhNcZRYz4xrXLh1tZCPdeSYg4GVvGmCEdoYlfpnU1aq7l2KNg"
+access_token = ""
+access_token_secret = ""
+consumer_key = ""
+consumer_secret = ""
 
 producer = KafkaProducer(
     bootstrap_servers=["localhost:9092"],
